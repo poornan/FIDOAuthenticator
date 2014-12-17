@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/metatype">
+    <OCD id="identity.application.authenticator.fido.u2f.component" name="%identity.application.authenticator.fido.u2f.component.name" description="%identity.application.authenticator.fido.u2f.component.description"/>
+    <Designate pid="identity.application.authenticator.fido.u2f.component">
+        <Object ocdref="identity.application.authenticator.fido.u2f.component"/>
+    </Designate>
+</metatype:MetaData>

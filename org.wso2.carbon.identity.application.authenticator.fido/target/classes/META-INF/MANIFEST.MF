@@ -1,0 +1,46 @@
+Manifest-Version: 1.0
+Service-Component: OSGI-INF/serviceComponents.xml
+Export-Package: org.wso2.carbon.identity.application.authenticator.fid
+ o.u2f.utils;uses:="org.wso2.carbon.identity.fido.u2f.stub,org.apache.
+ axis2.client,org.apache.axis2.context";version="4.2.0",org.wso2.carbo
+ n.identity.application.authenticator.fido.u2f;uses:="javax.servlet,or
+ g.wso2.carbon.identity.application.authentication.framework.config,or
+ g.wso2.carbon.ui,org.wso2.carbon.identity.application.authenticator.f
+ ido.u2f.utils,org.wso2.carbon.identity.application.authentication.fra
+ mework.context,org.wso2.carbon.identity.application.authentication.fr
+ amework,org.apache.axis2.context,org.wso2.carbon.identity.application
+ .authentication.framework.util,org.wso2.carbon.identity.application.a
+ uthentication.framework.exception,javax.servlet.http";version="4.2.0"
+Built-By: ananthaneshan
+Tool: Bnd-1.43.0
+Bundle-Name: org.wso2.carbon.identity.application.authenticator.fido
+Created-By: Apache Maven Bundle Plugin
+Bundle-Vendor: WSO2 Inc
+DynamicImport-Package: *
+Build-Jdk: 1.7.0_71
+Bundle-Version: 4.2.0
+Bnd-LastModified: 1418814821892
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
+Bundle-Description: This is a Carbon bundle that represent the Identit
+ y module.
+Import-Package: javax.servlet;version="[2.6.0,3.0.0)",javax.servlet.ht
+ tp;version="[2.6.0,3.0.0)",org.apache.axis2.client;version="[1.6.1.ws
+ o2v1,1.7.0)",org.apache.axis2.context;version="[1.6.1.wso2v1,1.7.0)",
+ org.apache.commons.logging;version="1.0.4",org.osgi.framework;version
+ ="[1.7,2)",org.osgi.service.component;resolution:=optional;version="[
+ 1.2,2)",org.wso2.carbon.identity.application.authentication.framework
+ ;version="[4.2,5)",org.wso2.carbon.identity.application.authenticatio
+ n.framework.config;version="[4.2,5)",org.wso2.carbon.identity.applica
+ tion.authentication.framework.context;version="[4.2,5)",org.wso2.carb
+ on.identity.application.authentication.framework.exception;version="[
+ 4.2,5)",org.wso2.carbon.identity.application.authentication.framework
+ .util;version="[4.2,5)",org.wso2.carbon.identity.application.authenti
+ cator.fido.u2f;resolution:=optional,org.wso2.carbon.identity.fido.u2f
+ .stub;resolution:=optional;version="[4.2,5)",org.wso2.carbon.ui;resol
+ ution:=optional;version="[4.2,5)",org.wso2.carbon.user.core.service;r
+ esolution:=optional;version="[4.2,5)"
+Bundle-DocURL: http://wso2.org
+Bundle-SymbolicName: org.wso2.carbon.identity.application.authenticato
+ r.fido
+
